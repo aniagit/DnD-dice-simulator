@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <title>Roll the Dice</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Roll the Dice</h1>
+    <div id="game">
+        <form>
+            <select id="dicelist">
+                <option>Select your dice</option>
+                <option>D4</option>
+                <option>D6</option>
+                <option>D8</option>
+                <option>D12</option>
+                <option>D20</option>
+                <option>D100</option>
+            </select>
+        </form>
+      <!-- <div><h1>12</h1></div> -->
+      <img id="diceimg" src="img/blank.jpg">
+      <!-- pick a color / pattern of your dice! -->
+      <div>
+        <input type="submit" value="Roll the dice" id="roll">
+      </div>
+      
+      <p class="message"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
